@@ -190,8 +190,8 @@ export const profile = {
         "A blogging platform for KKU with sign-in, a markdown editor for writing posts and a dashboard — built with React and TypeScript on a Firebase/Node.js backend.",
       tech: ["React", "TypeScript", "Firebase", "Node.js"],
       links: [
-        { label: "Live Demo", href: "https://kkublogging.com" },
-        { label: "GitHub", href: `${GITHUB}/KKU-Blogging-final` },
+        { label: "Live Demo", href: "https://kku-blogging-platform.vercel.app" },
+        { label: "GitHub", href: "https://github.com/PiyaratU/KKU-Blogging-Platform" },
       ],
     },
     {
