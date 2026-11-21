@@ -187,8 +187,8 @@ export const profile = {
     {
       name: "KKU Blogging Platform",
       description:
-        "A blogging platform for KKU with sign-in, a markdown editor for writing posts and a dashboard — built with React and TypeScript on a Firebase/Node.js backend.",
-      tech: ["React", "TypeScript", "Firebase", "Node.js"],
+        "A blogging platform for KKU students: a React and TypeScript UI with a block editor for writing posts, tags and search, real-time chat and notifications, plus a separate admin dashboard — backed by a Node.js / Express API on MongoDB with JWT sessions, Google Sign-In and Socket.IO.",
+      tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Socket.IO"],
       links: [
         { label: "Live Demo", href: "https://kku-blogging-platform.vercel.app" },
         { label: "GitHub", href: "https://github.com/PiyaratU/KKU-Blogging-Platform" },
