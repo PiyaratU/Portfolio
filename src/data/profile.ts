@@ -1,5 +1,5 @@
 // ข้อมูลทั้งหมดของหน้า Portfolio — แก้ไฟล์นี้ไฟล์เดียวพอ ไม่ต้องแตะ component
-// ที่มา: Resume (Resume_ปิยะรัตน์_อุปชีวะ.pdf) · github.com/HelloPPiyaaa · portfolio-theta-nine-25.vercel.app
+// ที่มา: Resume (Resume_ปิยะรัตน์_อุปชีวะ.pdf) · github.com/PiyaratU · portfolio-theta-nine-25.vercel.app
 
 export type Link = { label: string; href: string };
 
@@ -50,7 +50,7 @@ export type Education = {
   details?: string;
 };
 
-const GITHUB = "https://github.com/HelloPPiyaaa";
+const GITHUB = "https://github.com/PiyaratU";
 
 export const profile = {
   name: "Piyarat Upacheewa",
@@ -146,10 +146,7 @@ export const profile = {
         "Hands-on experience owning a feature from UI design through API and authentication.",
       ],
       tech: ["React", "TypeScript", "React Router", "Axios", "Bootstrap", "Node.js", "Express", "MongoDB", "JWT"],
-      links: [
-        { label: "Live Demo", href: "https://trackify-orcin.vercel.app" },
-        { label: "GitHub", href: `${GITHUB}/Trackify` },
-      ],
+      links: [{ label: "GitHub", href: `${GITHUB}/Trackify` }],
     },
     {
       name: "Findaboss",
@@ -179,10 +176,7 @@ export const profile = {
       description:
         "A full-stack issue tracker: a React and TypeScript UI with project and issue pages, a dashboard and an Open → In Progress → Done flow, backed by a Node.js / Express API on MongoDB with JWT sign-in.",
       tech: ["React", "TypeScript", "React Router", "Bootstrap", "Node.js", "MongoDB"],
-      links: [
-        { label: "Live Demo", href: "https://trackify-orcin.vercel.app" },
-        { label: "GitHub", href: `${GITHUB}/Trackify` },
-      ],
+      links: [{ label: "GitHub", href: `${GITHUB}/Trackify` }],
     },
     {
       name: "KKU Blogging Platform",
@@ -191,7 +185,7 @@ export const profile = {
       tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Socket.IO"],
       links: [
         { label: "Live Demo", href: "https://kku-blogging-platform.vercel.app" },
-        { label: "GitHub", href: "https://github.com/PiyaratU/KKU-Blogging-Platform" },
+        { label: "GitHub", href: `${GITHUB}/KKU-Blogging-Platform` },
       ],
     },
     {
